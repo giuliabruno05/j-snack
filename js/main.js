@@ -9,6 +9,7 @@
 let sommaNumeri = 0 ;
 console.log(sommaNumeri);
 
+//apro il ciclo for
  for (let i = 1; i <=5; i++){
     let numeriInseriti =  parseInt(prompt("numeri da inserire"));
 
@@ -18,7 +19,9 @@ console.log(sommaNumeri);
     sommaNumeri= sommaNumeri + numeriInseriti;
 
 }
-
-container.innerHTML = `La somma dei numeri è ${sommaNumeri}`
 console.log(sommaNumeri);
+
+//OUTPUT
+container.innerHTML = `La somma dei numeri è ${sommaNumeri}`
+
  
